@@ -1,4 +1,3 @@
-
 # LAP 3 Thursday REDUX
 
 - `mkdir redux-thursday && cd $_ && npx create-react-app .`
@@ -13,9 +12,27 @@
 
 - REDUX state manager (easier to debug)
 - npm install redux react-redux
-- useSelector to read state (redux)
+- useSelector to read state(value of state) (redux)
 - connect state 
 - store is where the state lives 
 - action is object that takes type as field
 
+- useDispatch hook (to update the state)
 
+
+# RECAP: 
+- goals: share state between components 
+- `useState` limts us to one component 
+- add `Provider` (allow pass props info to all children ) (wtihin store we have all to belongs to my states: deposit, withdraw , reducer, home)
+- to read state we use `useSelector` hook 
+- to interact iwht the state we use `useDispatch` hook (we can send thing (+100) we are trying to do)
+- dispatch (reducer) we take 2 values and we turn it into one thing
+- with dispatch we dispatch actions (action is simple JS object with a key)
+
+
+# 2 reducers
+- add new loanReducer.js 
+- to play with more than 1 reducer we need to install sth combineReducers
+- `useDispatch` to update the state 
+- `npm install redux-thunk`  import + add applyMiddleware (connects two pieces of application)
+- add Loading while add deposit has 2 s delay 
