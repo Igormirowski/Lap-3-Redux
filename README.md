@@ -1,5 +1,10 @@
 # LAP 3 Thursday REDUX
 
+
+https://user-images.githubusercontent.com/99121268/174737220-4a30adfc-8119-430b-90b3-31a3e02cb25c.mov
+
+<img width="729" alt="Screenshot 2022-06-20 at 14 52 36" src="https://user-images.githubusercontent.com/99121268/174737368-882abda5-a8b3-4a70-9724-128c8960de50.png">
+
 - `mkdir redux-thursday && cd $_ && npx create-react-app .`
 - Redux library
 - npm install react-router
